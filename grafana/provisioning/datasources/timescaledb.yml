@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: TimescaleDB
+    type: postgres
+    url: timescaledb:5432
+    database: climate_db
+    user: climate_user
+    secureJsonData:
+      password: climate_pass
+    jsonData:
+      sslmode: disable
+      postgresVersion: 1500
+      timescaledb: true
+    isDefault: true
+    editable: true
