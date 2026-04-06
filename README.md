@@ -23,7 +23,7 @@ Real-time weather data pipeline streaming data from OpenWeatherMap & Open-Meteo 
 ## Dashboard Preview
 
 ![Climate Intelligence Dashboard](dashboard.png)
-![Climate Intelligence Dashboard 2](dashboard1.png)
+![Dashboard](dashboard1.png)
 
 ```
 API Sources (OpenWeatherMap, Open-Meteo)
